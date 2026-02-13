@@ -292,21 +292,27 @@ footer a:hover { text-decoration: underline; }
 }
 .imgcardargo {
 border-radius: 15%;
- width: 500px;
+ width: 100%;
+ max-width: 500px;
  height: 404px;
  object-fit: cover;
+ display: block;
+ margin: 0 auto;
 }
 .card-containerargomenti {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit), minmax(300px, 1fr);
   gap: 30px;
+  padding: 20px;
 }
 .card-storiaargo{
   padding: 30px;
   border-radius: 12px 
+
 }
 .descriptionargo h3 {
 margin-top: 30px;
+text-align: center;
 }
  .card-containerargo {
   display: grid;
@@ -380,11 +386,13 @@ margin-top: 30px;
   }
 
     .card-storiaargo { 
-    flex-direction: column; 
-    text-align: left;
-
+    padding: 15px;
+    
   }
-
+.imgcardargo {
+  height: 250px;
+  border-radius: 10px;
+}
 
 
 
