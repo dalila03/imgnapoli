@@ -360,7 +360,10 @@ text-align: center;
   align-items: center;
 }
 
-
+.hero-textmacro{
+margin-left: 5%;
+  
+}
   .header-storia {
     flex-direction: column;
     gap: 20px;
