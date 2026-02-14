@@ -225,7 +225,16 @@ text-decoration: none;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-
+.card-container-numerati1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px; 
+}
+.card-container-numerati2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px; 
+}
 .card-storia {
   background: #E5F9FE;
   padding: 30px;
@@ -281,14 +290,16 @@ footer a:hover { text-decoration: underline; }
 .imgstoria {
   width: 100%;
   display: block;
-  max-height: 500px;
+  max-height: 650px;
   
 }
 .heromacro {
   position: relative;
   padding: 0; 
 }
-
+.cibohome {
+  padding-bottom: 150px;
+}
 .hero-textargomento {
   margin-top: 70px;
 }
@@ -349,7 +360,7 @@ text-align: center;
   section { padding: 60px 6%; }
 
   .card-container,
-  .card-container-numerati, .card-containerargo {
+  .card-container-numerati, .card-containerargo, .card-container-numerati1, .card-container-numerati2 {
     grid-template-columns: 1fr;
   }
 
