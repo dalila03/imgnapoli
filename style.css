@@ -194,6 +194,7 @@ text-decoration: none;
   width: 45%;        
   border-radius: 20px;
   object-fit: cover;
+  max-height: 400px;
 }
 
 .description {
