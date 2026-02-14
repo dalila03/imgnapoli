@@ -19,13 +19,13 @@ img {
 }
 
 body {
-  font-family: var(--sans);
+  font-family: 'DM Sans', sans-serif;
   color: var(--dark);
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--serif);
+  font-family: 'Crimson Text', serif;
   font-weight: 600;
 }
 
@@ -109,7 +109,9 @@ text-decoration: none;
   cursor: pointer;
   transition: opacity 0.3s;
 }
-
+.header-storia button {
+  margin-bottom: 60px;
+}
 .button:hover {
   opacity: 0.9;
 }
@@ -272,15 +274,21 @@ footer .nav-links a {
 footer a:hover { text-decoration: underline; }
 .hero-textmacro {
   margin-top: 70px;
-  text-align: center;
+  margin-left: 120px;
+  text-align: left;
+  
 }
 .imgstoria {
-  border-radius: 30px;
-  object-fit: cover;
-  margin-top: 60px;
+  width: 100%;
+  display: block;
   max-height: 500px;
   
 }
+.heromacro {
+  position: relative;
+  padding: 0; 
+}
+
 .hero-textargomento {
   margin-top: 70px;
 }
