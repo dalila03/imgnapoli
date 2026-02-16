@@ -325,14 +325,13 @@ border-radius: 15%;
 }
 .card-containerargomenti {
   display: grid;
-  grid-template-columns: repeat(auto-fit), minmax(300px, 1fr);
+  grid-template-columns: repeat(auto), minmax(300px, 1fr);
   gap: 30px;
   padding: 20px;
 }
 .card-storiaargo{
   padding: 30px;
-  border-radius: 12px 
-
+  border-radius: 12px
 }
 .descriptionargo h3 {
 margin-top: 30px;
