@@ -291,7 +291,9 @@ footer a:hover { text-decoration: underline; }
 .imgstoria {
   width: 100%;
   display: block;
-  max-height: 650px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
   
 }
 .heromacro {
