@@ -71,8 +71,14 @@ text-decoration: none;
   margin-left: 20px;
   font-weight: 500;
   text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  display: inline-block;
+  transition: transform 0.2s ease;
+  color: 0.2s ease;
+  text-shadow: 0.2s ease;
 }
-
+.nav-links a:hover {
+  color: #C6E4EC;
+}
 .hero {
   position: relative;
   padding: 0; 
@@ -101,7 +107,7 @@ text-decoration: none;
 }
 
 .button {
-  background: #C6E4EC;
+  background: #99bfca;
   color: rgb(0, 0, 0);
   border: none;
   padding: 12px 30px;
@@ -109,12 +115,13 @@ text-decoration: none;
   font-size: 0.9rem;
   cursor: pointer;
   transition: opacity 0.3s;
+
 }
 .header-storia button {
   margin-bottom: 60px;
 }
 .button:hover {
-  opacity: 0.9;
+  background-color: #C6E4EC;
 }
 
 
@@ -129,9 +136,14 @@ text-decoration: none;
   padding: 30px;
   border-radius: 12px;
   transition: transform 0.3s ease;
+  box-shadow: 0.3s ease;
+  cursor: pointer;
 }
 
-.card1:hover { transform: translateY(-6px); }
+.card1:hover { transform: translateY(-6px);
+box-shadow: 0 10px 10 px rgba(0,0,0,0.1);
+background-color: #ffffff;
+}
 .card1 img { width: 40px; margin-bottom: 20px; }
 .card1 a { color: inherit; }
 
@@ -249,9 +261,13 @@ text-decoration: none;
   background: #E5F9FE;
   padding: 30px;
   border-radius: 12px;
-  
+  transition: transform 0.3s ease;
+  cursor: pointer
 }
-
+.card-storia:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
 .numero { font-size: 48px; }
 
 .imgfinale {
@@ -342,7 +358,10 @@ flex: 1;
 max-width: 500px;
 min-width: 300px;
 text-align: center;
+padding: 15px;
+border-radius: 20px;
 }
+
 .descriptionargo h3 {
 margin-top: 30px;
 text-align: center;
