@@ -81,6 +81,7 @@ text-decoration: none;
 .hero img {
   height: 80vh;
   object-fit: cover;
+  
 }
 
 .hero-text {
@@ -162,7 +163,13 @@ text-decoration: none;
 
 .number { font-size: 24px; margin-right: 15px; }
 
-.neighborhood-link { color: var(--dark); }
+.neighborhood-link { 
+  color: var(--dark); 
+  transition: color 0.3s ease
+}
+.neighborhood-link:hover {
+  color: #3b50b8;
+}
 
 .imgchiaia {
   width: 50%;
