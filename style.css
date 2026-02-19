@@ -103,7 +103,8 @@ text-decoration: none;
 
 .intro p {
   max-width: 700px;
-  font-size: 25px;
+  font-size: 22px;
+  margin-left: 8px
 }
 
 .button {
@@ -311,6 +312,7 @@ footer a:hover { text-decoration: underline; }
   margin-top: 70px;
   margin-left: 120px;
   text-align: left;
+  
   
 }
 .imgstoria {
